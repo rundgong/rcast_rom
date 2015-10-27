@@ -1,0 +1,15 @@
+--- cast_shell.orig.hexdump	2015-09-27 22:12:39.346990028 +0200
++++ cast_shell.mod.hexdump	2015-09-27 22:11:21.965990808 +0200
+@@ -1949272,9 +1949272,9 @@
+ 01dc2a90  49 50 76 34 20 61 64 64  72 65 73 73 20 6f 66 20  |IPv4 address of |
+ 01dc2aa0  70 72 69 6d 61 72 79 20  6e 65 74 69 66 20 63 68  |primary netif ch|
+ 01dc2ab0  61 6e 67 65 64 3a 20 6e  65 77 3d 00 68 74 74 70  |anged: new=.http|
+-01dc2ac0  73 3a 2f 2f 63 6c 69 65  6e 74 73 33 2e 67 6f 6f  |s://clients3.goo|
+-01dc2ad0  67 6c 65 2e 63 6f 6d 2f  67 65 6e 65 72 61 74 65  |gle.com/generate|
+-01dc2ae0  5f 32 30 34 00 00 00 00  2e 2e 2f 2e 2e 2f 63 68  |_204....../../ch|
++01dc2ac0  3a 2f 2f 31 32 37 2e 30  2e 30 2e 31 2f 69 6d 61  |://127.0.0.1/ima|
++01dc2ad0  67 65 73 2f 61 76 61 74  61 72 2e 6a 70 67 00 00  |ges/avatar.jpg..|
++01dc2ae0  00 00 00 00 00 00 00 00  2e 2e 2f 2e 2e 2f 63 68  |........../../ch|
+ 01dc2af0  72 6f 6d 65 63 61 73 74  2f 6e 65 74 2f 63 6f 6e  |romecast/net/con|
+ 01dc2b00  6e 65 63 74 69 76 69 74  79 5f 63 68 65 63 6b 65  |nectivity_checke|
+ 01dc2b10  72 2e 63 63 00 00 00 00  43 61 6e 63 65 6c 20 63  |r.cc....Cancel c|

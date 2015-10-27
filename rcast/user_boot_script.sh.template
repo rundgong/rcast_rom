@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Fix boot when not connected to the internet
+/system/rcast/rcast_boot.sh
+
+# Start the player for local media
+/system/rcast/rcast_player_start.sh
+
+# Start FTP server
+busybox tcpsvd -vE 0.0.0.0 21 busybox ftpd /data/rcast -w & > /dev/null
+
