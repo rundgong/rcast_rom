@@ -13,6 +13,10 @@ else
   echo " " >> etc/hosts
   echo "127.0.0.1 pool.ntp.org" >> etc/hosts
   echo "127.0.0.1 mtalk.google.com" >> etc/hosts
+  echo "127.0.0.1 clients4.google.com" >> etc/hosts
+  echo "127.0.0.1 google.com" >> etc/hosts
+  echo "127.0.0.1 channel.status.request.url" >> /etc/hosts
+  echo "127.0.0.1 fonts.googleapis.com" >> /etc/hosts
 
   /system/rcast/sntp/sntp_server &
 
@@ -23,5 +27,8 @@ else
   # 8.8.8.8 (Google DNS) is hardcoded in net_mgr
   ifconfig mlan0:0 8.8.8.8 netmask 255.255.255.255
 
+  # Restart cast_shell
+  busybox killall cast_shell
+  
 fi
 

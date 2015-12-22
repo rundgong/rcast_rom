@@ -6,7 +6,6 @@
 # Patched files from Eureka-ROM
 cp -v cast_shell ../system/chrome/cast_shell
 cp -v net_mgr ../system/bin/net_mgr
-cp -v sntpd ../system/bin/sntpd
 
 # rCast additions
 cp -rv rcast/ ../system/
